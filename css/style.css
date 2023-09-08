@@ -1,0 +1,168 @@
+.boxses{
+    margin: 0 auto;
+    width: 2910px;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(243, 247, 247);
+    border-top: 6px solid black;
+    border-left: 6px solid black;
+    border-radius: 50%;
+    display:  flex;
+    justify-content: center;
+    /* margin-left: 450px ;
+    margin-top: 150px; */
+    animation-name: anBox1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox1{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.small__box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(243, 247, 247);
+    border-bottom: 6px solid black;
+    border-right: 6px solid black;
+    border-radius: 50%;
+    margin: 100px 100px;
+    animation-name: anBox2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox2{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.box3{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(243, 247, 247) ;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 50%;
+    /* margin-left: 1500px ; */
+    margin-top: 150px;
+    animation-name: anBox3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox3{
+    100%{
+        transform: rotate(360deg);
+    }
+    50%{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* .box4{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(243, 247, 247) ;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 1500px ;
+    margin-top: 150px;
+    animation-name: anBox4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox4{
+    100%{
+        transform: rotate(360deg);
+    }
+    50%{
+        width: 400px;
+        height: 400px;
+    }
+} */
+
+.box5{
+    width: 600px;
+    height: 600px;
+    background-color:rgb(243, 247, 247) ;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    animation-name: anBox5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox5{
+    100%{
+         
+        transform: rotate(360deg);
+    }
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 247, 247);
+    border: 5px solid black;
+    border-radius: 50%;
+    animation-name: anBox6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox6{
+     
+    100%{
+         
+        transform: rotate(360deg);
+    }
+}
+
+.box7{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(243, 247, 247);
+    border-top: 55px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    animation-name: anBox7;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anBox7{
+    35%{
+        border-right: 55px solid black;
+    }
+    65%{
+        border-bottom: 55px solid black;
+    }
+    100%{
+        border-left: 55px solid black;
+    }
+}
+.box8{
+    width: 590px;
+    height: 590px;
+    background-color: rgb(243, 247, 247);
+    border: 3px solid black;
+     
+    border-radius: 50%;
+}
